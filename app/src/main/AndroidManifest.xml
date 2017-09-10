@@ -53,11 +53,11 @@
         <activity
             android:name=".SongsActivity"
             android:label="@string/title_activity_songs"
-            android:parentActivityName=".PlayListActivity"
+            android:parentActivityName=".NowPlayingActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.github.ricardosbarbosa.musicalstructure.PlayListActivity" />
+                android:value="com.github.ricardosbarbosa.musicalstructure.NowPlayingActivity" />
         </activity>
         <activity
             android:name=".PaymentActivity"
